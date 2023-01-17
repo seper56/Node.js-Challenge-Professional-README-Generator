@@ -1,4 +1,8 @@
-const inquirer = require("inquirer");
+
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+const inquirer = require('inquirer')
+
 const fs = require("fs");
 const util = require("util");
 // Variables to connect modules to application
@@ -19,12 +23,5 @@ async function init() {
     throw err;
   }
 }
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
-
-const inquirer = require('inquirer');
-
-
-
 // function call to initialize program
 init();
