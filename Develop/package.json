@@ -12,3 +12,15 @@
     "inquirer": "^6.3.1"
   }
 }
+
+"repository": {
+  "type": "git",
+  "url": "https://github.com/seper56/Node.js-Challenge-Professional-README-Generator"
+},
+"bugs": {
+  "url": "https://github.com/seper56/Node.js-Challenge-Professional-README-Generator/issues"
+},
+
+{
+"homepage": "https://github.com/seper56/Node.js-Challenge-Professional-README-Generator"
+},
