@@ -16,6 +16,10 @@ function licenseBadge(value) {
     }
   }
   
-  module.exports = {
-    licenseBadge: licenseBadge,
-  };
+  // module.exports = {
+  //   licenseBadge: licenseBadge,
+  // };
+
+  export default {
+    licenseBadge: licenseBadge
+  }
