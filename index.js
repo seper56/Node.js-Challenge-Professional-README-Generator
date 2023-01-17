@@ -19,6 +19,9 @@ async function init() {
     throw err;
   }
 }
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
 
+const inquirer = require('inquirer');
 // function call to initialize program
 init();
