@@ -25,8 +25,8 @@ import { writeFileSync } from 'fs';
 // function to initialize program and create README file
 async function init() {
   try {
-    const answers = await inquirer.prompt(questions);
-    answers.licenseBadge = licenseBadge(answers.license);
+     const answers = await inquirer.prompt(questions);
+      answers.licenseBadge = licenseBadge(answers.license);
     let readMeData = generateMarkdown(answers);
     await writeFileAsync("created-README.md", readMeData);
   } catch (err) {

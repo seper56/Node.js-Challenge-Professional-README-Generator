@@ -20,6 +20,4 @@ function licenseBadge(value) {
   //   licenseBadge: licenseBadge,
   // };
 
-  export default {
-    licenseBadge: licenseBadge
-  }
+  export default  licenseBadge
